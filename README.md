@@ -2,7 +2,13 @@
 
 This project is a MATLAB-based fitness tracker that uses machine learning to classify physical activities (e.g., sitting, walking, running) and estimates the number of steps taken and calories burned. It works on pre-recorded mobile sensor data (acceleration and GPS).
 
-## 📁 Folder Contents
+## 🏆 Achievement
+
+**3rd Place Winner** at the Hackathon at the University of West Attica in Greece (AI with MATLAB), – May 2025 
+(link: https://ai-with-matlab-west-attica.devpost.com/?ref_content=default&ref_feature=challenge&ref_medium=portfolio)
+This project was awarded 3rd place among 86 participants for its innovative design, practical features, and implementation in MATLAB.
+
+## Folder Contents
 
 - `trainedModel.mat` — Pre-trained classification model for activity recognition.
 - `StepCounterImperial.m` — Function to calculate steps using GPS coordinates (imperial units).
@@ -12,7 +18,7 @@ This project is a MATLAB-based fitness tracker that uses machine learning to cla
 - `loadActivityData.m` — Loads `.mat` sensor files and prepares input data for analysis.
 - `results.csv` — (Optional) Output file with summary statistics from recent analysis.
 
-## 🔍 How It Works
+## How It Works
 
 1. **Sensor Data Input**  
    Sensor data is collected using MATLAB Mobile and saved in `.mat` files. Each file contains:
@@ -38,14 +44,14 @@ This project is a MATLAB-based fitness tracker that uses machine learning to cla
    - Steps per activity (bar chart)
    - Calories burned per activity (pie chart)
 
-## ⚙️ Dependencies
+## Dependencies
 
 - MATLAB (R2018b or newer recommended)
 - Statistics and Machine Learning Toolbox
 - MATLAB Mobile (for data collection)
 - Pre-saved `.mat` files in `MobileSensorData/` directory
 
-## 🚀 Usage
+## Usage
 
 1. Save sensor data using MATLAB Mobile and place `.mat` files in `MobileSensorData/`.
 2. Train or load a `trainedModel` that can classify activities from acceleration data.
